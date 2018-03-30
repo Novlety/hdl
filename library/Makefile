@@ -92,6 +92,7 @@ clean:
 	$(MAKE) -C util_cic clean
 	$(MAKE) -C util_clkdiv clean
 	$(MAKE) -C util_cpack clean
+	$(MAKE) -C util_cpack2 clean
 	$(MAKE) -C util_dacfifo clean
 	$(MAKE) -C util_delay clean
 	$(MAKE) -C util_extract clean
@@ -201,6 +202,7 @@ lib:
 	$(MAKE) -C util_cic
 	$(MAKE) -C util_clkdiv
 	$(MAKE) -C util_cpack
+	$(MAKE) -C util_cpack2
 	$(MAKE) -C util_dacfifo
 	$(MAKE) -C util_delay
 	$(MAKE) -C util_extract
