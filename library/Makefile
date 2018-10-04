@@ -91,7 +91,6 @@ clean:
 	$(MAKE) -C util_cdc clean
 	$(MAKE) -C util_cic clean
 	$(MAKE) -C util_clkdiv clean
-	$(MAKE) -C util_cpack clean
 	$(MAKE) -C util_cpack2 clean
 	$(MAKE) -C util_dacfifo clean
 	$(MAKE) -C util_delay clean
@@ -105,7 +104,6 @@ clean:
 	$(MAKE) -C util_rfifo clean
 	$(MAKE) -C util_sigma_delta_spi clean
 	$(MAKE) -C util_tdd_sync clean
-	$(MAKE) -C util_upack clean
 	$(MAKE) -C util_upack2 clean
 	$(MAKE) -C util_var_fifo clean
 	$(MAKE) -C util_wfifo clean
@@ -201,7 +199,6 @@ lib:
 	$(MAKE) -C util_cdc
 	$(MAKE) -C util_cic
 	$(MAKE) -C util_clkdiv
-	$(MAKE) -C util_cpack
 	$(MAKE) -C util_cpack2
 	$(MAKE) -C util_dacfifo
 	$(MAKE) -C util_delay
@@ -215,7 +212,6 @@ lib:
 	$(MAKE) -C util_rfifo
 	$(MAKE) -C util_sigma_delta_spi
 	$(MAKE) -C util_tdd_sync
-	$(MAKE) -C util_upack
 	$(MAKE) -C util_upack2
 	$(MAKE) -C util_var_fifo
 	$(MAKE) -C util_wfifo
